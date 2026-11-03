@@ -13,13 +13,18 @@
         <h1>Superhero Search</h1>
     </header>
 
+
     <main>
         <h2>Find a Superhero</h2>
-        <p>Press the button to view the list of superheroes.</p>
+        <p>Enter a superhero's name or alias below.</p>
 
-        <button id="search" type="button">Search</button>
+        <form id="search-form">
+            <label for="query">Enter Superhero Name or Alias:</label>
+            <input type="text" id="query" name="query" />
+            <button id="search" type="submit">Search</button>
+        </form>
 
-        <div id="result"></div>
+    <div id="result"></div>
     </main>
 </body>
 </html>

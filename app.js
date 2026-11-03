@@ -1,4 +1,3 @@
-
 const searchForm = document.getElementById("search-form");
 const queryInput = document.getElementById("query");
 const result = document.getElementById("result");
